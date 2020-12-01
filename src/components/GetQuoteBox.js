@@ -1,7 +1,7 @@
 function GetQuoteBox() {
     return (
         <div className='service-page-box'>
-            <h1>REQUEST FOR QUOTE</h1>
+            <h3>REQUEST FOR QUOTE</h3>
             <div className='service-page-content'>
                 <p>
                     Fill out our Online Quote request form or give us a call

@@ -1,6 +1,77 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap');
 
+
+@media (max-width: 576px) {
+  .nav-active{
+    border: none !important;
+  }
+
+  .nav-tab {
+    border-bottom: none !important;
+  }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 1025px) {
+
+  #title {
+    font-size: 2em !important;
+  }
+
+  h1 {
+    font-size: 1.5em !important;
+  }
+
+  h2 {
+    font-size: 1.1em !important;
+  }
+
+  h3 {
+    font-size: .9em !important;
+  }
+
+  p {
+    font-size: .8em !important;
+  }
+
+
+  .service-box { 
+    padding: 2em 1em 1em 1em !important;
+  }
+
+  .custom-nav {
+    font-size: 0.6em !important;
+    background-color: white;
+    padding: .5em !important;
+  }
+}
+
+@media (min-width: 1026px) {
+  #title {
+    font-size: 3em !important;
+  }
+
+  h1 {
+    font-size: 2em !important;
+  }
+
+  h2 {
+    font-size: 1.5em !important;
+    line-height: 1.6em !important;
+  }
+
+  h3 {
+    font-size: 1.2em !important;
+  } 
+
+  p {
+    font-size: 1em !important;
+    line-height: 1.6em !important;
+  }
+}
+
 body {
   margin: 0;
   font-family: 'Open Sans',serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,14 +82,18 @@ body {
   color: #2C2C2F;
 }
 
-p {
-  font-size: 16px;
-  line-height: 26px;
-}
 
 /* navbar */
+.nav-logo {
+  width: 10em;
+}
+
+.footer-logo {
+  width: 15em;
+}
+
 .custom-nav {
-  font-size: 14px;
+  font-size: 0.875em;
   background-color: white;
   padding: 1em;
 }
@@ -39,7 +114,7 @@ p {
 }
 
 .nav-active {
-  border-bottom: solid 4px #F07545 !important;
+  border-bottom: solid 4px #F07545;
 }
 
 .nav-dropdown { 
@@ -53,6 +128,7 @@ p {
 }
 
 .theme-btn {
+  font-size: 1em;
   outline: none;
   background-color: #1DBC98;
   padding: .8em 1em;
@@ -78,18 +154,18 @@ p {
 
 #landing-content-L {
   padding-top: 10%;
-  margin-left: 50%;
+  margin-left: 45%;
   color: white;
 }
 
 #welcome-txt {
-  font-size: 24px;
+  font-size: 1.5em;
   margin: 0;
 }
 
 #title {
   font-weight: 600;
-  font-size: 48px;
+  font-size: 2.5em;
   margin: 0;
 
 }
@@ -106,7 +182,7 @@ p {
 .landing-content-R {
   display:inline-block;
   text-align: right;
-  margin-left: 50%;
+  margin-left: 45%;
   width: auto;
   padding-left: 0;
   left:0;
@@ -117,7 +193,7 @@ p {
   background: none;
   border: none;
   color: white;
-  font-size: 18px;
+  font-size: 1.2em;
   font-weight: 600;
   text-decoration: underline;
 }
@@ -138,12 +214,12 @@ p {
   box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.1);
 }
 
-.service-box h1 {
-  font-size: 24px;
+.service-box h2 {
+  font-size: 1.5em;
 }
 
 .service-box p {
-  font-size: 16px;
+  font-size: 1em;
   color: #727574;
 }
 
@@ -156,23 +232,21 @@ p {
 
 #how-it-works-title {
   font-weight: 600;
-  font-size: 36px;
+  font-size: 2.25em;
 }
 
 #how-it-works-LC {
-  width: 50%;
-  padding-right: 10%;
+  width: 45%;
+  padding-right:10%;
 }
 
 #how-it-works-RC {
-  width: 50%;
-  padding-right: 10%;
+  width: 45%;
 }
 
 #how-form {
   font-weight: 600;
-  font-size: 14px;
-  margin-left: 5vw;
+  font-size: 0.875em;
   margin-top: 4vh;
   background-color: white;
   padding: 4em 2em;
@@ -185,19 +259,16 @@ p {
 }
 
 .instruction {
-  margin-top: 2em;
+  margin-top: 1em;
 }
 
 .instruction h1 {
   color: #1DBC98;
   font-weight: 600;
-  font-size: 36px;
 }
 
 .instruction h2 {
   font-weight: 600;
-  font-size: 24px;
-  line-height: 40px;
 }
 
 
@@ -214,7 +285,6 @@ p {
 
 #who-we-are-L h1 {
   font-weight: 600;
-  font-size: 24px;
 }
 
 #who-we-are-L p {
@@ -234,7 +304,7 @@ p {
 .footer {
   background-color: #F1F2F4;
   margin: 0;
-  padding: 5% 10%;
+  padding: 5%;
 }
 
 .footer .col {
@@ -248,15 +318,13 @@ p {
   
 }
 
-.footer h1 {
-  font-size: 18px;
+.footer h3 {
   font-weight: 700;
   margin-bottom: 1em;
 }
 
 .footer a {
   color: #2C2C2F;
-  font-size: 16px;
 }
 
 .footer-link {
@@ -282,13 +350,12 @@ p {
 }
 
 .about-content {
-  padding: 5% 10%;
+  padding: 5%;
   background-color: #F8F8F9;
   padding-bottom: 10em;
 }
 
 .about-content h2 {
-  font-size: 24px;
   font-weight: 600;
   margin-bottom: 1em;
 }
@@ -331,7 +398,6 @@ p {
 }
 
 #phil-title {
-  font-size: 36px;
   font-weight: 600;
   border-bottom: solid 1px #E7E7E7;
   padding-bottom: .5em;
@@ -347,8 +413,7 @@ p {
 }
 
 
-#phil-box h2 {
-  font-size: 18px;
+#phil-box h3 {
   margin-top: 2em;
   font-weight: 600;
 }
@@ -356,19 +421,17 @@ p {
 /* commitments section */
 
 #commitments {
-  padding: 5% 10%;
+  padding: 5%;
   background-color: #F8F8F9;
 }
 
 #commitments h1{
-  font-size: 36px;
   font-weight: 600;
   margin-bottom: 1em;
 }
 
 .value {
   color: #1DBC98;
-  font-size: 18px;
   font-weight: 700;
   margin: 1em 2em;
   padding: 1em 5em;
@@ -383,12 +446,12 @@ p {
 .service-page-box {
   background-color: white;
   box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.1);
-  width: 100%;
+  width: 80%;
+  margin: 0 10%;
 }
-.service-page-box h1 {
+.service-page-box h3 {
   text-align: center;
   font-weight: 600;
-  font-size: 18px;
   background-color: #1DBC98;
   padding: 1em;
   color: #FFFFFF;
@@ -414,25 +477,28 @@ p {
 /* shipping service page */
 .service-page {
   background-color: #F8F8F9;
-  padding: 5% 10%;
+  padding: 5%;
 }
 
 .service-R {
   width: 70%;
-  padding: 0 6em;
+  padding: 0 4em;
 }
 
 .service-R .row { 
   margin-top: 2em;
 }
 
+.service-R .col:nth-child(1) { 
+  margin-right: 4em;
+}
 .service-L {
   width: 30%;
 }
 
-.service-R h1 {
-  font-size: 24px;
+.service-R h3, h2 {
   font-weight: 600;
+  margin-bottom: 1em;
 }
 
 
@@ -446,6 +512,5 @@ p {
 
 .header {
   color: #FFFFFF;
-  font-weight: 600;
-  font-size: 36px;
+  font-weight: 700;
 }

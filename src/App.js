@@ -8,7 +8,7 @@ import Services from './components/Services';
 
 function App() { 
   return (
-    <main>
+    <React.Fragment>
       <CustomNav />
       <Switch>
         <Route path="/" component={Landing} exact />
@@ -16,7 +16,7 @@ function App() {
         <Route path="/service-shipping" component={Services} exact />
       </Switch>
       <Footer/>
-      </main>
+    </React.Fragment>
   );
 }
 

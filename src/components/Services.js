@@ -19,7 +19,7 @@ function Services() {
     return (
         <div>
             <HeaderImage classStyle="shipping-header" text="SHIPPING" />
-            <div className="service-page row">
+            <div className="service-page row no-gutters">
                 <div className="service-L">
                     <GetQuoteBox />
                     <HeaderImage />
@@ -27,9 +27,9 @@ function Services() {
                 </div>
 
                 <div className="service-R">
-                    <h1>
+                    <h2>
                         Make your trusted ocean freight forwarding partner.{' '}
-                    </h1>
+                    </h2>
                     <p>
                         Everwin is a trusted and dependable partner for
                         international ocean freight forwarding by its valued
@@ -48,7 +48,7 @@ function Services() {
                     </p>
                     <div className="row no-gutters">
                         <div className="col">
-                            <h1>Courier</h1>
+                            <h3>Courier</h3>
                             <ul>
                                 <li>
                                     Everwin courier , China – Canada traffic
@@ -60,7 +60,7 @@ function Services() {
                             </ul>
                         </div>
                         <div className="col">
-                            <h1>Mailing</h1>
+                            <h3>Mailing</h3>
                             <ul>
                                 <li>
                                     Post service with coordinate multiple States
@@ -71,7 +71,7 @@ function Services() {
                     </div>
                     <div className="row no-gutters">
                         <div className="col">
-                            <h1>Customs brokage</h1>
+                            <h3>Customs brokage</h3>
                             <ul>
                                 <li>
                                     Professional team with decades experience of
@@ -80,7 +80,7 @@ function Services() {
                             </ul>
                         </div>
                         <div className="col">
-                            <h1>Local transport</h1>
+                            <h3>Local transport</h3>
                             <ul>
                                 <li>
                                     Dedicated Service – Trucking, Van, Motor

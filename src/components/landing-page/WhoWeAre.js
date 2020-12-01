@@ -4,7 +4,7 @@ function WhoWeAre() {
     return (
         <div id='who-we-are'>
             <div className="row">
-                <div className="col" id='who-we-are-L'>
+                <div className="col-md" id='who-we-are-L'>
                     <h1>WHO WE ARE</h1>
                     <p>
                         EVERWIN specializes in international air, ocean postal
@@ -15,8 +15,8 @@ function WhoWeAre() {
 
                     <button className='theme-btn'>LEARN MORE</button>
                 </div>
-                <div className="col" id='who-we-are-R'>
-                    <img src={whoPic} width='500px' />
+                <div className="col-md" id='who-we-are-R'>
+                    <img src={whoPic} width='80%' />
                 </div>
             </div>
         </div>

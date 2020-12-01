@@ -1,7 +1,7 @@
 function ServiceNav() {
     return (
         <div className='service-page-box' id='service-page-nav'>
-            <h1>SERVICES</h1>
+            <h3>SERVICES</h3>
             <div>
                 <div className='service-page-nav-item'>
                     Shipping

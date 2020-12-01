@@ -62,15 +62,15 @@ function About() {
                     <div className='row'>
                         <div className='col'>
                             <img src={lightbulb} height='80px'/>
-                            <h2>Thinking limitless</h2>
+                            <h3>Thinking limitless</h3>
                         </div>
                         <div className='col'>
                             <img src={collab} height='80px'/>
-                            <h2>3P – People Partnership Performance</h2>
+                            <h3>3P – People Partnership Performance</h3>
                         </div>
                         <div className='col'>
                             <img src={mountains} height='80px'/>
-                            <h2>Moving Borderless</h2>
+                            <h3>Moving Borderless</h3>
                         </div>
                     </div>
                 </div>
@@ -81,13 +81,13 @@ function About() {
                     Our Commitments
                 </h1>
                 <div className='d-flex justify-content-center'>
-                    <div className='value'>AVAILABLE</div>
-                    <div className='value'>DYNAMIC</div>
-                    <div className='value'>FLEXIBLE</div>
+                    <h3 className='value'>AVAILABLE</h3>
+                    <h3 className='value'>DYNAMIC</h3>
+                    <h3 className='value'>FLEXIBLE</h3>
                 </div>
                 <div className='d-flex justify-content-center'>
-                    <div className='value'>EFFICIENT</div>
-                    <div className='value'>RELIABLE</div>
+                    <h3 className='value'>EFFICIENT</h3>
+                    <h3 className='value'>RELIABLE</h3>
                 </div>
             </div>
         </div>

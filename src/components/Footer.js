@@ -11,13 +11,13 @@ function Footer() {
     return (
         <div className="footer">
             <div className="row">
-                <div className="col">
+                <div className="col-md">
                     <NavLink to="/">
-                        <img src={logo} alt='logo' width='200px'/>
+                        <img src={logo} alt='logo' className='footer-logo'/>
                     </NavLink>
                 </div>
-                <div className="col">
-                    <h1>Go to</h1>
+                <div className="col-md">
+                    <h3>Go to</h3>
                     <div className='footer-link'>
                         <NavLink to="/">
                             About
@@ -29,8 +29,8 @@ function Footer() {
                         </NavLink>
                     </div>
                 </div>
-                <div className="col">
-                    <h1>Services</h1>
+                <div className="col-md">
+                    <h3>Services</h3>
                     <div className='footer-link'>
                         <NavLink to="/">
                             Shipping
@@ -48,8 +48,8 @@ function Footer() {
                     </div>
                 </div>
                 
-                <div className="col">
-                    <h1>Contacts</h1>
+                <div className="col-md">
+                    <h3>Contacts</h3>
                     <div className='row no-gutters'>
                         <img src={phone} height='20px' className='contact-img'/>
                         <p className='contact-item'>86-21-52868600 ext 807</p>  

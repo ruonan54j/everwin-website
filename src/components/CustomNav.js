@@ -18,10 +18,10 @@ function CustomNav() {
 
 
     return (
-        <Navbar className='custom-nav' expand="lg">
+        <Navbar className='custom-nav' expand="md">
             <Navbar.Brand>
                 <NavLink to="/">
-                    <img src={logo} alt='logo' width='200px'/>
+                    <img src={logo} alt='logo' className='nav-logo' />
                 </NavLink>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
