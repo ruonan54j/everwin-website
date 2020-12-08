@@ -9,7 +9,7 @@ function Main() {
           <div id='identity-div'>
             <p id='identity-txt'>Logistician | Consultant | Technician | Solution Maker</p>
           </div>
-          <button className='landing-btn'>Get in Touch</button>
+          <a className='landing-btn' href="/#footer"><p>Get in Touch</p></a>
         </div>
       </div>
     )

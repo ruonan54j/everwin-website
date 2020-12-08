@@ -2,24 +2,24 @@ function HowTo() {
     return (
         <div id='how-it-works-landing' className='d-flex justify-content-center'>
           <div id='how-it-works-LC'>
-          <form id="how-form">
+          <form id="how-form" action="/form-submit">
             <div className='row'>
               <div className="form-group col">
                 <label for="firstName">First name</label>
-                <input type="text" className="form-control" id="firstName" />
+                <input type="text" className="form-control" id="firstName" required/>
             </div>
               <div className="form-group col">
                 <label for="lastName">Last name</label>
-                <input type="text" className="form-control" id="lastName" />
+                <input type="text" className="form-control" id="lastName" required/>
             </div>
             </div>
             <div className="form-group">
                 <label for="email">Email address</label>
-                <input type="email" className="form-control" id="email" />
+                <input type="email" className="form-control" id="email" required/>
             </div>
             <div className="form-group">
                 <label for="phone">Phone</label>
-                <input type="text" className="form-control" id="phone" />
+                <input type="text" className="form-control" id="phone" required/>
             </div>
             <button type="submit" className="theme-btn form-btn">GET QUOTE</button>
             </form>

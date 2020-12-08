@@ -9,7 +9,7 @@ import skype from '../images/skype.png'
 
 function Footer() {
     return (
-        <div className="footer">
+        <div id="footer">
             <div className="row">
                 <div className="col-md">
                     <NavLink to="/">
@@ -19,36 +19,36 @@ function Footer() {
                 <div className="col-md">
                     <h3>Go to</h3>
                     <div className='footer-link'>
-                        <NavLink to="/">
+                        <NavLink to="/about">
                             About
                         </NavLink>
                     </div>
                     <div className='footer-link'>
-                        <NavLink to="/">
+                        <a href="/#how-it-works-landing">
                             Get Quote
-                        </NavLink>
+                        </a>
                     </div>
                 </div>
                 <div className="col-md">
                     <h3>Services</h3>
                     <div className='footer-link'>
-                        <NavLink to="/">
+                        <NavLink to="/service-shipping">
                             Shipping
                         </NavLink>
                     </div>
                     <div className='footer-link'>
-                        <NavLink to="/">
+                        <NavLink to="/service-warehouse">
                             Warehouse and FullFillment
                         </NavLink>
                     </div>
                     <div className='footer-link'>
-                        <NavLink to="/">
+                        <NavLink to="/service-business">
                             Business Solutions
                         </NavLink>
                     </div>
                 </div>
                 
-                <div className="col-md">
+                <div className="contacts">
                     <h3>Contacts</h3>
                     <div className='row no-gutters'>
                         <img src={phone} height='20px' className='contact-img'/>

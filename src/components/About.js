@@ -61,15 +61,15 @@ function About() {
                     <h1 id='phil-title'>PHILOSOPHY</h1>
                     <div className='row'>
                         <div className='col'>
-                            <img src={lightbulb} height='80px'/>
+                            <img src={lightbulb} className='landing-boxes-small'/>
                             <h3>Thinking limitless</h3>
                         </div>
                         <div className='col'>
-                            <img src={collab} height='80px'/>
+                            <img src={collab} className='landing-boxes-small' />
                             <h3>3P – People Partnership Performance</h3>
                         </div>
                         <div className='col'>
-                            <img src={mountains} height='80px'/>
+                            <img src={mountains} className='landing-boxes-small' />
                             <h3>Moving Borderless</h3>
                         </div>
                     </div>

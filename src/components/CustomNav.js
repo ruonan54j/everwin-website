@@ -37,12 +37,12 @@ function CustomNav() {
                     <NavDropdown title="SERVICES" className={active === 2 ? 'nav-tab nav-active' : 'nav-tab' } id="basic-nav-dropdown">
                         <NavDropdown.Item href="/service-shipping" onClick={() => setActive(2)}>Shipping</NavDropdown.Item>
                         <NavDropdown.Divider />
-                        <NavDropdown.Item href="/service-warehouse-fullfillment" onClick={() => setActive(2)}>Warehouse and Fullfillment</NavDropdown.Item>
+                        <NavDropdown.Item href="/service-warehouse" onClick={() => setActive(2)}>Warehouse and Fullfillment</NavDropdown.Item>
                         <NavDropdown.Divider />
                         <NavDropdown.Item href="/service-business" onClick={() => setActive(2)}>Business Solutions</NavDropdown.Item>
                     </NavDropdown>
 
-                    <button className='theme-btn nav-btn'>GET QUOTE</button>
+                    <a href="/#how-it-works-landing" className='theme-btn nav-btn'>GET QUOTE</a>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

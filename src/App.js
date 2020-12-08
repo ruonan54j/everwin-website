@@ -5,6 +5,8 @@ import React from 'react'
 import { Route, Switch } from 'react-router-dom'
 import About from './components/About';
 import Services from './components/Services';
+import Shipping from './components/Shipping'
+import FormSubmit from './components/FormSubmit'
 
 function App() { 
   return (
@@ -13,7 +15,10 @@ function App() {
       <Switch>
         <Route path="/" component={Landing} exact />
         <Route path="/about" component={About} exact />
-        <Route path="/service-shipping" component={Services} exact />
+        <Route path="/service-shipping" component={Shipping} exact />
+        <Route path="/service-warehouse" component={Services} exact />
+        <Route path="/service-business" component={Services} exact />
+        <Route path="/form-submit" component={FormSubmit} exact />
       </Switch>
       <Footer/>
     </React.Fragment>

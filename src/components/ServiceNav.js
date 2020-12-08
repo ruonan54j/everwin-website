@@ -3,15 +3,15 @@ function ServiceNav() {
         <div className='service-page-box' id='service-page-nav'>
             <h3>SERVICES</h3>
             <div>
-                <div className='service-page-nav-item'>
+                <p className='service-page-nav-item'>
                     Shipping
-                </div>
-                <div className='service-page-nav-item'>
+                </p>
+                <p className='service-page-nav-item'>
                     Warehousing and Fulfilment
-                </div>
-                <div className='service-page-nav-item'>
+                </p>
+                <p className='service-page-nav-item'>
                     Business Solutions
-                </div>
+                </p>
             </div>
         </div>
     )
