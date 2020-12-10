@@ -17,7 +17,7 @@ function ServiceIntro() {
             </div>
             <div className='service-box'>
               <img src={business} className="landing-boxes-small" style={{marginBottom:'1em'}}/>
-              <h3>Business solutions</h3>
+              <h3>BUSINESS SOLUTIONS</h3>
               <p>24/7 support</p>
             </div>
           </div>

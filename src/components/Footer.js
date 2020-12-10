@@ -51,23 +51,23 @@ function Footer() {
                 <div className="contacts">
                     <h3>Contacts</h3>
                     <div className='row no-gutters'>
-                        <img src={phone} height='20px' className='contact-img'/>
+                        <img src={phone} className='contact-img'/>
                         <p className='contact-item'>86-21-52868600 ext 807</p>  
                     </div>
                     <div className='row no-gutters'>
-                        <img src={mail} height='20px' className='contact-img'/>
+                        <img src={mail} className='contact-img'/>
                         <p className='contact-item'>benjamin@evertowin.com</p>  
                     </div>
                     <div className='row no-gutters'>
-                        <img src={whatsapp} height='20px' className='contact-img'/>
+                        <img src={whatsapp} className='contact-img'/>
                         <p className='contact-item'><strong>WhatsApp </strong>86-13918261314</p>  
                     </div>
                     <div className='row no-gutters'>
-                        <img src={skype} height='20px' className='contact-img'/>
+                        <img src={skype} className='contact-img'/>
                         <p className='contact-item'><strong>Skype </strong>benjamin.cjm</p>  
                     </div>
                     <div className='row no-gutters'>
-                        <img src={wechat} height='20px' className='contact-img'/>
+                        <img src={wechat} className='contact-img'/>
                         <p className='contact-item'><strong>WeChat </strong>jiaming_1230</p>  
                     </div>
                 </div>

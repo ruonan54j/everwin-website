@@ -3,12 +3,12 @@ function HowTo() {
         <div id='how-it-works-landing' className='d-flex justify-content-center'>
           <div id='how-it-works-LC'>
           <form id="how-form" action="/form-submit">
-            <div className='row'>
-              <div className="form-group col">
+            <div className='row no-gutters'>
+              <div className="form-group form-col">
                 <label for="firstName">First name</label>
                 <input type="text" className="form-control" id="firstName" required/>
             </div>
-              <div className="form-group col">
+              <div className="form-group form-col">
                 <label for="lastName">Last name</label>
                 <input type="text" className="form-control" id="lastName" required/>
             </div>
@@ -25,24 +25,24 @@ function HowTo() {
             </form>
           </div>
           <div id='how-it-works-RC'>
-            <h1 id='how-it-works-title'>HOW IT WORKS</h1>
-            <div className='row instruction'>
-              <h1 className='col-2'>01:</h1> 
-              <h2 className='col-10'>Fill out the form.</h2> 
+            <h2 id='how-it-works-title'>HOW IT WORKS</h2>
+            <div className='row no-gutters instruction'>
+              <h1 className='how-step'>01:</h1> 
+              <h3 className='how-step-desc'>Fill out the form.</h3> 
             </div>
-            <div className='row instruction'>
-              <h1 className='col-2'>02:</h1> 
-              <div className='col-10'>
-                <h2>Get an instant quote.</h2>
+            <div className='row no-gutters instruction'>
+              <h1 className='how-step'>02:</h1> 
+              <div className='how-step-desc'>
+                <h3>Get an instant quote.</h3>
                 <p>
                   Once you enter your shipment information on our platform, you’ll be able to compare discounted shipping rates and transit times from different carriers on one page. You can also access other shipping services like air freight, Ocean freight, courier services, and other specialized shipping services.
                 </p>
               </div> 
               
             </div>
-            <div className='row instruction'>
-              <h1 className='col-2'>03:</h1> 
-              <h2 className='col-10'>Get instant message updates and one-on-one hospitality services.</h2> 
+            <div className='row no-gutters instruction'>
+              <h1 className='how-step'>03:</h1> 
+              <h3 className='how-step-desc'>Get instant message updates and one-on-one hospitality services.</h3> 
             </div>
           </div>
         </div>
