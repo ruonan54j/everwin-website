@@ -20,7 +20,7 @@ function CustomNav() {
     return (
         <Navbar className='custom-nav' expand="md">
             <Navbar.Brand>
-                <NavLink to="/">
+                <NavLink to="/" onClick={()=>setActive(0)}>
                     <img src={logo} alt='logo' className='nav-logo' />
                 </NavLink>
             </Navbar.Brand>

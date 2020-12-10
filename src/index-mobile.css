@@ -246,7 +246,9 @@
     /* service page phone */
     .service-L {
       width: 100% !important;
-      padding: 1em 2em;
+      padding: 1em;
+      display: flex;
+      flex-wrap: wrap;
     }
   
     .service-R {
@@ -255,11 +257,16 @@
     }
   
     .service-page-box {
-      margin: 0 0 2em 0 !important;
-      width: 100% !important;
+      margin: 0 auto 2em auto !important;
+      width: 250px !important;
     }
   
     .service-R .row {
       margin-top: 0 !important;
     }
+
+    .dropdown-item {
+      font-size: .7em !important;
+    }
+
   }

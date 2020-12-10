@@ -30,6 +30,10 @@
       background-color: white;
       padding: .5em !important;
     }
+
+    .dropdown-item {
+      font-size: .7em !important;
+    }
   
     .footer-logo {
       width: 10em !important;
@@ -152,8 +156,9 @@
     }
   
     .service-page-box {
-      margin: 0 0 2em 0 !important;
-      width: 90% !important;
+      margin: 0 auto 2em auto !important;
+      width: 250px !important;
+      max-width: 70%;
     }
   }
   

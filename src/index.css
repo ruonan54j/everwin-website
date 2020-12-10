@@ -80,21 +80,12 @@ body {
   color: #2C2C2F !important;
 }
 
-.theme-btn {
-  text-align: center;
-  font-size: 1em;
-  outline: none;
-  background-color: #1DBC98;
-  padding: .8em 1em;
-  width: 10em;
-  border: none;
-  color: white;
-  font-weight: 600;
-  border-radius: .2em;
-}
-
 .nav-btn {
   margin: auto 2em;
+}
+
+.dropdown-item:active {
+  background-color: #F07545 !important;
 }
 
 /* landing page */
@@ -146,6 +137,11 @@ body {
   font-size: 1.2em;
   font-weight: 600;
   text-decoration: underline;
+}
+
+.landing-btn:hover {
+  color: white;
+  font-weight: 700;
 }
 
 #title {
@@ -435,9 +431,11 @@ input {
 .service-page-box {
   background-color: white;
   box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.1);
-  width: 80%;
+  width: 320px;
+  min-width: 70%;
   margin: 0 10%;
 }
+
 .service-page-box h3 {
   text-align: center;
   font-weight: 600;
@@ -447,11 +445,12 @@ input {
 }
 
 .service-page-content {
-  padding: .5em 1em 2em 1em;
+  padding: .5em 1em 1em 1em;
 }
 
 .service-page-btn {
-  margin-top: .5em;
+  display: block;
+  margin-top: 1em;
 }
 
 .service-page-nav-item {
@@ -521,4 +520,26 @@ li p {
   margin: 0;
   padding: 4em;
   height: 50vh;
+}
+
+.theme-btn {
+  text-align: center;
+  font-size: 1em;
+  outline: none;
+  background-size: 100% 200%;
+  background-image: linear-gradient(to top, #F07545 50%, #1DBC98 50%);
+  transition: background-position .2s;  
+  padding: .8em 1em;
+  width: 10em;
+  border: none;
+  color: white;
+  font-weight: 600;
+  border-radius: .2em;
+}
+
+.theme-btn:hover {
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  background-position: 0 100%;
 }
