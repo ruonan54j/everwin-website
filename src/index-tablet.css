@@ -159,6 +159,7 @@
       margin: 0 auto 2em auto !important;
       width: 250px !important;
       max-width: 70%;
+      min-width: 10% !important;
     }
   }
   

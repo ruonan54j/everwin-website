@@ -32,9 +32,23 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #2C2C2F;
+  color: #2C2C2F; 
+} 
+
+.content {
+  animation: fadeInAnimation ease-in .7s; 
+  animation-iteration-count: 1; 
+  animation-fill-mode: forwards;
 }
 
+@keyframes fadeInAnimation { 
+  0% { 
+      opacity: 0; 
+  } 
+  100% { 
+      opacity: 1; 
+   } 
+} 
 
 /* navbar */
 .nav-logo {
@@ -428,12 +442,23 @@ input {
 #service-page-nav {
   margin-top: 2em;
 }
+
 .service-page-box {
   background-color: white;
   box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.1);
   width: 320px;
   min-width: 70%;
-  margin: 0 10%;
+  margin: 0 auto;
+}
+
+#service-page-nav a { 
+  color: #2C2C2F;
+}
+
+#service-page-nav a:hover { 
+  color: #1DBC98;
+  font-weight: 700;
+  text-decoration: none;
 }
 
 .service-page-box h3 {
@@ -475,6 +500,10 @@ li p {
 .service-R {
   width: 70%;
   padding: 0 4em;
+}
+
+.service-R h2 {
+  font-weight: 700;
 }
 
 .service-R .row { 

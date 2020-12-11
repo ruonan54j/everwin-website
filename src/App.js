@@ -13,12 +13,14 @@ function App() {
     <React.Fragment>
       <CustomNav />
       <Switch>
+        <div className='content'>
         <Route path="/" component={Landing} exact />
         <Route path="/about" component={About} exact />
         <Route path="/service-shipping" component={Shipping} exact />
         <Route path="/service-warehouse" component={Services} exact />
         <Route path="/service-business" component={Services} exact />
         <Route path="/form-submit" component={FormSubmit} exact />
+        </div>
       </Switch>
       <Footer/>
     </React.Fragment>

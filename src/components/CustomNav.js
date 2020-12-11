@@ -20,9 +20,9 @@ function CustomNav() {
     return (
         <Navbar className='custom-nav' expand="md">
             <Navbar.Brand>
-                <NavLink to="/" onClick={()=>setActive(0)}>
+                <Nav.Link href="/">
                     <img src={logo} alt='logo' className='nav-logo' />
-                </NavLink>
+                </Nav.Link>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">

@@ -259,6 +259,7 @@
     .service-page-box {
       margin: 0 auto 2em auto !important;
       width: 250px !important;
+      min-width: 200px !important;
     }
   
     .service-R .row {
